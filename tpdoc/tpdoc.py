@@ -35,17 +35,13 @@ def save_to_json(data, filename):
     :param data: Данные, которые нужно сохранить в файл.
     :param filename: Имя файла для сохранения данных.
     """
-    # Определяем путь к папке 'data'
     data_directory = os.path.join(os.getcwd(), 'data')
 
-    # Создаем папку 'data', если она не существует
     if not os.path.exists(data_directory):
         os.makedirs(data_directory)
 
-    # Полный путь к файлу
     file_path = os.path.join(data_directory, filename)
 
-    # Сохраняем данные в JSON-файл
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
