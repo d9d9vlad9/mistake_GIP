@@ -1,0 +1,22 @@
+{
+    "regions": {
+        "Region_1": {
+            "region_id": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "properties": "JCP.properties_Region1",
+            "api_endpoint": "http://example.com/api/v1/documents/",
+            "adress_url_curl": "https://example.com/resource"
+        },
+        "Region_2": {
+            "region_id": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "properties": "JCP.properties_Region2",
+            "api_endpoint": "https://example.org/api/v1/documents/",
+            "adress_url_curl": "https://example.org/resource"
+        },
+        "Region_3": {
+            "region_id": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "properties": "JCP.properties_Region3",
+            "api_endpoint": "https://example.net/api/v1/documents/",
+            "adress_url_curl": "https://example.net/resource"
+        }
+    }
+}
